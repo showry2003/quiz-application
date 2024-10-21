@@ -1,0 +1,25 @@
+.hidden {
+  display: none;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+.answer-btn {
+  margin: 5px;
+  padding: 10px;
+  display: block;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}

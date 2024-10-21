@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <style>
+    .hidden { display: none; }
+    .correct { background-color: green; color: white; }
+    .incorrect { background-color: red; color: white; }
+    .answer-btn { margin: 5px; padding: 10px; display: block; }
+    .quiz-container { max-width: 600px; margin: auto; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+    <div id="question"></div> <!-- Question will be inserted here -->
+    <div id="answer-buttons"></div> <!-- Answer buttons will be inserted here -->
+    <button id="prev-btn" class="hidden">Previous</button>
+    <button id="next-btn" class="hidden">Next</button>
+    <button id="submit-btn" class="hidden">Submit</button>
+  </div>
+  <script src="quiz.js"></script> <!-- Separate JavaScript file -->
+</body>
+</html>
